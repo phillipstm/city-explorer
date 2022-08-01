@@ -1,70 +1,102 @@
-# Getting Started with Create React App
+# city-explorer
+
+**Author**: Teresa Phillips
+**Version**: 1.0.0 (increment the patch/fix version number if you make more commits past your first submission)
+
+## Overview
+
+<!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for this class. (i.e. What's your problem domain?) -->
+
+## Getting Started
+Create a **Tello** Board
+
+Navigate to City Explorer **Trello** Board <https://trello.com/b/Ajj9Cbac/module-2-city-explorer> Select "Show Menu", "...More" and copy "Copy Board". If you would like your site to be public change the settings from private to public.
+
+Create a new repo in **GitHub** initialized with no files.
+
+Use **create-react-app** to set up a new React application named city-explorer in your local projects directory.
+
+Connect your GitHub repo to your local repo using the instructions in GitHub.
+
+Add a `.gitignore` file with React configurations, including ignoring of `.env`.
+
+Create a **package.json** file with all dependencies and any associated details related to configuration. As **Axios and Bootstrap**.
+
+Deploy to **Netlify**.
+
+Create a pull request of your basic ***React app** to your main branch. Merge to main branch.
+
+**Procure a LocationIQ** free-tier account. From the Dashboard, navigate to your API Access Tokens page. View and Update the existing token, to change the label to "City Explorer".
+
+**IMPORTANT**: Add your deployed Netlify app url as an HTTP Referrer to your API token settings. This is necessary to revnt any unauthorized use of your token. And add localhost while testing from your development environment.
+
+Create an **.env** file: Your API key goes here for local development. Make sure this is in your **.gitignore**.
+
+Add your **API key** to your Netlify deployment. Under "Site settings">"Build & deploy" > "Environment", add "Edit variables" to add your API key, giving it the same name you used in your local.env file.
+
+## Architecture
+<!-- Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. -->
+
+## Change Log
+<!-- Use this area to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an example:
+
+01-01-2001 4:59pm - Application now has a fully-functional express server, with a GET route for the location resource. -->
+08-01-2022 3:07pm - Added Readme.md
+
+## Credit and Collaborations
+<!-- Give credit (and a link) to other people or resources that helped you build this application. -->
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Name of feature: ______Set Up___git hub, react,_______________________
 
-### `npm test`
+Estimate of time needed to complete: _20____
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Start time: __1:45___
 
-### `npm run build`
+Finish time: _2:17____
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Actual time needed to complete: __:30___
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Name of feature: ____Readme.md____________________________
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Estimate of time needed to complete: _:20____
 
-### `npm run eject`
+Start time: __2:17__
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Finish time: 3:04_____
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Actual time needed to complete: _:45____
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Name of feature: ________________________________
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Estimate of time needed to complete: _____
 
-## Learn More
+Start time: _____
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Finish time: _____
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Actual time needed to complete: _____
 
-### Code Splitting
+Name of feature: ________________________________
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Estimate of time needed to complete: _____
 
-### Analyzing the Bundle Size
+Start time: _____
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Finish time: _____
 
-### Making a Progressive Web App
+Actual time needed to complete: _____
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Name of feature: ________________________________
 
-### Advanced Configuration
+Estimate of time needed to complete: _____
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Start time: _____
 
-### Deployment
+Finish time: _____
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Actual time needed to complete: _____
