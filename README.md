@@ -81,22 +81,22 @@ Finish time: __3:37___
 
 Actual time needed to complete: _:20____
 
-Name of feature: ________________________________
+Name of feature: ____Deploy to Netlify____________________________
 
-Estimate of time needed to complete: _____
-
-Start time: _____
-
-Finish time: _____
-
-Actual time needed to complete: _____
-
-Name of feature: ________________________________
-
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: __:20___
 
 Start time: _____
 
 Finish time: _____
 
-Actual time needed to complete: _____
+Actual time needed to complete: __:35___
+
+Name of feature: ______Procure locationIq token__________________________
+
+Estimate of time needed to complete: __15___
+
+Start time: ___4:30__
+
+Finish time: __4:45___
+
+Actual time needed to complete: _:15____
