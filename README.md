@@ -71,15 +71,15 @@ Finish time: 3:04_____
 
 Actual time needed to complete: _:45____
 
-Name of feature: ________________________________
+Name of feature: _____Added .gitignor and .env files___________________________
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: __:15___
 
-Start time: _____
+Start time: ___3:14__
 
-Finish time: _____
+Finish time: __3:37___
 
-Actual time needed to complete: _____
+Actual time needed to complete: _:20____
 
 Name of feature: ________________________________
 
