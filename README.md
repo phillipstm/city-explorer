@@ -5,9 +5,11 @@
 
 ## Overview
 
+When a user enters a valid location in the input and clicks the "Explore!" button, the lattitude and longitude will be displayed.
 <!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for this class. (i.e. What's your problem domain?) -->
 
 ## Getting Started
+
 Create a **Tello** Board
 
 Navigate to City Explorer **Trello** Board <https://trello.com/b/Ajj9Cbac/module-2-city-explorer> Select "Show Menu", "...More" and copy "Copy Board". If you would like your site to be public change the settings from private to public.
@@ -35,6 +37,14 @@ Create an **.env** file: Your API key goes here for local development. Make sure
 Add your **API key** to your Netlify deployment. Under "Site settings">"Build & deploy" > "Environment", add "Edit variables" to add your API key, giving it the same name you used in your local.env file.
 
 ## Architecture
+
+Languages:
+
+React
+
+Libraries:
+
+LocationIQ
 <!-- Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. -->
 
 ## Change Log
