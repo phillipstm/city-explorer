@@ -76,7 +76,7 @@ class App extends React.Component {
           {this.state.displayMap && <Latlon city={this.state.location} lat={this.state.lat} lon={this.state.lon}/>}
           <Map   
           city={this.state.location}
-          img_url={}
+          img_url={`https://maps.locationiq.com/v3/staticmap?key=${process.env.REACT_APP_CITY_KEY}&center=${this.state.lat},${this.state.lon}&size=${window.innerWidth}x300&format=jpg&zoom=12`}
           />
         </>
 
