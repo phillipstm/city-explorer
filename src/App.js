@@ -22,8 +22,9 @@ class App extends React.Component {
   handleSubmit = async (event) => {
     event.preventDefault();
     console.log("SubmitEvent:", event);
-    let locationIQ = await axios.get(`https://us1.locationiq.com/v1/search.php`);
-
+    // https://us1.locationiq.com/v1/search?key=<Your_API_Access_Token>&q=221b%2C%20Baker%20St%2C%20London%20&format=json
+    let locationIQ = await axios.get(`https://us1.locationiq.com/v1/search?key=${process.env.REACT_APP_CITY_KEY}&q=${this.state.city}`);
+    console.log(locationIQ)
   }
 
 
@@ -45,6 +46,9 @@ class App extends React.Component {
         <header>Data from location API</header>
 
         <form onSubmit={this.handleSubmit}>
+          <label>Search City
+            <input type="text" onChange={this.handleInput} />
+          </label>
           <button type="submit">Explore!</button>
         </form>
       </>
