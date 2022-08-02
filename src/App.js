@@ -21,11 +21,14 @@ class App extends React.Component {
   // handleSubmit = (event) =>
   handleSubmit = async (event) => {
     event.preventDefault();
+    console.log("SubmitEvent:", event);
+    let locationIQ = await axios.get(`https://us1.locationiq.com/v1/search.php`);
+
+  }
+
 
     render() {
 
-      console.log("SubmitEvent:", event);
-      let locationIQ = await axios.get(`https://us1.locationiq.com/v1/search.php`);
 
       // 6. console log the added state
       console.log("locationIQ STATE:", this.state.locationIQ);
@@ -33,17 +36,18 @@ class App extends React.Component {
 
 
 
-    // let locationIQ = this.state.locationData.map((locationIQ, index) => {
-    //   return <li key={index}>{locationIQ.name}</li>;
+      // let locationIQ = this.state.locationData.map((locationIQ, index) => {
+      //   return <li key={index}>{locationIQ.name}</li>;
 
-  <>
-  return (
-  <header>Data from location API</header></>
+        return (
+          <>
 
-<form onSubmit={this.handleSubmit}>
-<button type="submit">Explore!</button>
-</form>
-    </>
+        <header>Data from location API</header>
+
+        <form onSubmit={this.handleSubmit}>
+          <button type="submit">Explore!</button>
+        </form>
+      </>
 
   );
     };
