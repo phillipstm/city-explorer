@@ -30,7 +30,7 @@ class App extends React.Component {
     event.preventDefault();
     // console.log("SubmitEvent:", event);
     try {
-      let url = `https://us1.locationiq.com/v1/search?key=${process.env.REACT_APP_CITY_KEY}&q=${this.state.city}&format=json`;
+      let url = `https://us1.locationiq.com/v1/search?key=${process.env.REACT_APP_CITY_KEY}&=${this.state.city}&format=json`;
       // console.log(url);
       let locationIQ = await axios.get(url);
       console.log('localllllllCity', locationIQ.data[0]);
